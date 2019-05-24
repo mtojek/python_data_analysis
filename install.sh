@@ -18,4 +18,4 @@ echo "c.NotebookApp.allow_remote_access = True" >> .jupyter/jupyter_notebook_con
 echo "c.NotebookApp.ip = '*'" >> .jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.password = u'sha1::a874d09fb82320933965657a3cc71f98ddf5b39f'" >> .jupyter/jupyter_notebook_config.py
 
-jupyter notebook
+screen -d -m jupyter notebook
